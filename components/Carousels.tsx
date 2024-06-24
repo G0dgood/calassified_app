@@ -99,7 +99,7 @@ const Carousels = () => {
 							<div className='funiture_section_card_two_sub1'>
 								<div className='funiture_section_card_text_sup'>
 									<div className='carousels_icon_container'>
-										<Image src={icon} alt="icon" />
+										{/* <Image src={icon} alt="icon" /> */}
 										<h6 className='funiture_section_card_text_sup_h6'>
 											cucci
 										</h6>
