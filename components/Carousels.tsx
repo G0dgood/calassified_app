@@ -101,7 +101,7 @@ const Carousels = () => {
 									<div className='carousels_icon_container'>
 										{/* <Image src={icon} alt="icon" /> */}
 										<h6 className='funiture_section_card_text_sup_h6'>
-											cucci
+											Controller
 										</h6>
 									</div>
 									<div>
