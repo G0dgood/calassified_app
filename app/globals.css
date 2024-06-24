@@ -1,33 +1,56 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* @import "~bootstrap/dist/css/bootstrap.min.css";   */
+  
+  *,
+::before,
+::after {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box  ; 
+}
+
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --accent-white: #fff;
+  --accent-black: #000;
+  --second-text-color: #737373;
+  --text-color: #252B42; 
+  --primary-color: #E07575;
+  --secondary-color-1:#23856D;
+  --success-text-color:#2DC071;
+  --danger-color:#E07575;
+  --danger-color-light:#e075756d;
+ --disabled-element-color: #8EC2F2;
+ --light-gray-1:#FAFAFA;
+ --muted-text-color:#BDBDBD; 
+ --border:#E8E8E8;
+  --hover-color: #23a5f036; 
+  --active-color: #C0C0C0;
+		--border:#cdd1d3;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
+html,
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+ 
+a {
+  text-decoration: none !important;
+   color: inherit; 
+   cursor: pointer;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+button{
+  border: none
 }
+
+
+@import url(../css/header.css);  
+@import url(../css/page.css); 
+@import url(../css/productpage.css); 
+@import url(../css/footer.css); 
+@import url(../css/cart.css); 
+@import url(../css/flashSales.css); 
+@import url(../css/bootstrap.css); 
+ 
